@@ -1,0 +1,70 @@
+{
+  "exchanges": [
+    {
+      "id": 1,
+      "exchange_id": "BINANCE",
+      "name": "Binance",
+      "website": "https://www.binance.com",
+      "volume_24h": 36052149854.27475
+    },
+    {
+      "id": 2,
+      "exchange_id": "HUOBIGLOBAL",
+      "name": "Huobi Global",
+      "website": "https://www.huobi.com",
+      "volume_24h": 8408806476.281028
+    },
+    {
+      "id": 3,
+      "exchange_id": "COINBASE",
+      "name": "Coinbase",
+      "website": "https://pro.coinbase.com",
+      "volume_24h": 8058319118.753507
+    },
+    {
+      "id": 4,
+      "exchange_id": "KRAKEN",
+      "name": "Kraken",
+      "website": "https://www.kraken.com",
+      "volume_24h": 2441844209.9216576
+    },
+    {
+      "id": 5,
+      "exchange_id": "BITFINEX",
+      "name": "Bitfinex",
+      "website": "https://www.bitfinex.com",
+      "volume_24h": 2055812699.7361362
+    },
+    {
+      "id": 6,
+      "exchange_id": "POLONIEX",
+      "name": "Poloniex",
+      "website": "https://www.poloniex.com",
+      "volume_24h": 347918754.7724478
+    },
+    {
+      "id": 7,
+      "exchange_id": "BITTREX",
+      "name": "Bittrex",
+      "website": "https://www.bittrex.com",
+      "volume_24h": 277214474.0304707
+    }
+  ],
+  "users": [
+    {
+      "username": "indir.karic@mail.com",
+      "password": "pwd123456",
+      "id": 1
+    },
+    {
+      "username": "test.test@mail.com",
+      "password": "pwd123456",
+      "id": 2
+    },
+    {
+      "username": "user@gmail.com",
+      "password": "pwd123456",
+      "id": 3
+    }
+  ]
+}
