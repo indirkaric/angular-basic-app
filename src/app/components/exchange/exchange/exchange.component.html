@@ -1,0 +1,15 @@
+<mat-list>
+  <app-exchange-item *ngFor="let exchange of exchanges"
+                     [exchange] = "exchange"
+                     (onDeleteExchange)="deleteExchange(exchange)">
+  </app-exchange-item>
+</mat-list>
+
+ <mat-paginator
+                [length]=100
+                [pageIndex]="currentPage"
+                [pageSize]="pageSize"
+                [pageSizeOptions]="[2, 4, 10, 25, 100]"
+                (page) = "pageChanged($event)"
+ >
+ </mat-paginator>
