@@ -1,0 +1,17 @@
+<div class="form">
+  <form>
+    <div class="form-control">
+      <label class="label" for="name">Exchange name</label>
+      <input [(ngModel)]="name" type="text" name="name" id="name" placeholder="Add exchange name"/>
+    </div>
+    <div class="form-control">
+      <label class="label" for="website">Website url</label>
+      <input [(ngModel)]="website" type="text" name="website" id="website" placeholder="url"/>
+    </div>
+    <div class="form-control">
+      <label class="label" for="volume_24h">Volume 24 h</label>
+      <input [(ngModel)]="volume_24h" type="number" name="volume_24h" id="volume_24h" placeholder="Volume 24 h"/>
+    </div>
+      <input (click)="onSave()" type="submit" value="Save" class="btn-submit"/>
+  </form>
+</div>
