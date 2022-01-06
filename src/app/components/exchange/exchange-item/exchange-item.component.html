@@ -1,0 +1,12 @@
+<div class="exchange" >
+  <h3>
+    {{ exchange.name }}
+    <fa-icon
+      (click) = "onDelete(exchange)"
+      [ngStyle]="{ color: 'red' }"
+      [icon]="faTimes"
+    ></fa-icon>
+  </h3>
+  <p>{{exchange.volume_24h}}</p>
+  <p>{{exchange.website}}</p>
+</div>
